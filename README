@@ -1,0 +1,44 @@
+# Sistema de Reserva de Hotel
+
+## Descrição
+
+Este projeto é um sistema de gerenciamento de reservas de hotel. Inclui a criação e manipulação de tabelas para gerenciar convidados, salas e reservas em um banco de dados SQL.
+
+## Estrutura do Banco de Dados
+
+- **Convidados**: Armazena informações sobre os convidados do hotel.
+- **Salas**: Armazena informações sobre as salas do hotel, incluindo tipo, preço e status.
+- **Reservas**: Armazena informações sobre as reservas feitas pelos convidados, incluindo datas de check-in e check-out.
+
+## Scripts
+
+1. **Criação do Banco de Dados e Tabelas**:
+   - `create_database.sql`: Script para criar o banco de dados e as tabelas necessárias.
+
+2. **Inserção de Dados**:
+   - `insert_data.sql`: Script para inserir dados iniciais nas tabelas.
+
+3. **Consultas**:
+   - `queries.sql`: Script para realizar consultas no banco de dados e visualizar dados.
+
+4. **Atualizações e Exclusões**:
+   - `update_delete.sql`: Script para atualizar e excluir dados existentes.
+
+## Uso
+
+1. Execute o script `create_database.sql` para criar o banco de dados e as tabelas.
+2. Execute o script `insert_data.sql` para inserir dados iniciais nas tabelas.
+3. Execute o script `queries.sql` para executar consultas SQL e visualizar dados.
+4. Execute o script `update_delete.sql` para atualizar e excluir dados conforme necessário.
+
+## Requisitos
+
+- MySQL ou outro sistema de gerenciamento de banco de dados SQL compatível.
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com melhorias e correções. Crie uma issue ou um pull request para sugestões e mudanças.
+
+## Licença
+
+Este projeto é de código aberto e licenciado sob a [MIT License](LICENSE).
