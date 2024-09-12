@@ -1,0 +1,10 @@
+HotelReservation/
+│
+├── src/
+│   ├── create_database.sql
+│   ├── insert_data.sql
+│   ├── queries.sql
+│   └── update_delete.sql
+│
+├── README.md
+└── .gitignore
